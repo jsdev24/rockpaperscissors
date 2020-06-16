@@ -1,0 +1,60 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0288D1;
+    font-family: arial;
+    user-select: none;
+}
+
+.score {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+
+.player {
+    background-color: #29B6F6;
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid #01579B;
+}
+
+.computer {
+    background-color: #29B6F6;
+    width: 50%;
+    float: left;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid #01579B;
+
+}
+
+.icons {
+    clear: both;
+    text-align: center;
+    padding-top: 70px;
+    margin-top: 50px;
+}
+
+section img {
+    width: 20%;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+#choice {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    color: #fff;
+}
